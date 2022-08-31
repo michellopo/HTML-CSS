@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:ital,wght@0,400;1,100;1,400&display=swap');
+
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right,#EEA1E9 20%,#F2C0EC,#D6BF9D);
+}
+main {
+    font-family:'Work Sans', Arial, Helvetica,sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #9181697e;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif, cursive;
+    color: #D6BF9D;
+    text-align: center;
+    text-shadow: 1px 1px 0px #70645273;
+}
+h2 {
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif, cursive;
+    color:#D6BF9D;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(70, 67, 67);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.658);
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            padding: 3px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+           
+        }
+       main {
+        background-color: white;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 7px 9px 0px rgba(0, 0, 0, 0.692) ;
+       }
+       article {
+        background-color: lightgray;
+        margin: 10px;
+       }
+       article > aside {
+        background-color: rgb(155, 152, 152);
+       }
+       footer {
+        background-color: black;
+        padding: 2px;
+        margin: 10px;
+       }
+       footer > p {
+        color: white;
+        text-align: center;
+        margin: 0px;
+       }
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum asperiores nemo alias nihil ipsam blanditiis tempore veniam eaque ipsa, repellendus fugiat consequatur ullam similique magnam praesentium quos ad natus.</p>
+                <aside>
+                    <p>Artigo criado por Marlene </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Michel Lopo</p>
+    </footer>
+</body>
+</html>

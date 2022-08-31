@@ -1,0 +1,10 @@
+@charset "UF-8";
+
+body {
+    background-color: darkgoldenrod;
+}
+h1 {
+    color: maroon;
+    font-size: 25px;
+    text-align: center;
+}
